@@ -1,0 +1,32 @@
+
+be sure you run your menuconfig well.
+example:
+
+- serial com port
+( windows user use: COM4 COM20 COM21 and so on ) 
+- cpu speed
+- ble stack
+- and so on
+
+check it out and have phun
+
+News-spread-via-BLE-ID-riding
+
+---done!
+24.09.2016
+
+best wishes
+rudi ;-)
+
+http://esp32.de
+http://twitter.com/eMbeddedHome
+
+mail: rudi@eMbeddedHome.de
+
+
+for more information on ESP32: 
+visit esp32 forum 
+
+http://esp32.com
+
+
