@@ -51,3 +51,9 @@ https://twitter.com/eMbeddedHome/status/780160242948726784
 
 contact:
 rudi@eMbeddedHome.de
+
+
+FYI: 
+The BLE spec says that the device name field may be between 0 and 248 octets.
+Try it!
+;-)
