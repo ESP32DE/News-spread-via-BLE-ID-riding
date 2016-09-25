@@ -29,4 +29,8 @@ visit esp32 forum
 
 http://esp32.com
 
+thread:
+http://esp32.com/viewtopic.php?f=18&t=257
+
+
 
