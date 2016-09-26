@@ -53,9 +53,10 @@ contact:
 rudi@eMbeddedHome.de
 
 
-FYI: 
-The BLE spec says that the device name field may be between 0 and 248 octets.
-The array size is limited to be 31 bytes(octets).
+ FYI:
+ 
+ The BLE spec says that the device name field may be between 0 and 248 octets.
+ The array size is limited to be 31 bytes(octets).
 
 
     char *adv_name = "ESP-BLE-HELLO";
