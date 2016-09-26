@@ -57,14 +57,15 @@ FYI:
 The BLE spec says that the device name field may be between 0 and 248 octets.
 The array size is limited to be 31 bytes(octets).
 
-char *adv_name = "ESP-BLE-HELLO";
+
+    char *adv_name = "ESP-BLE-HELLO";
     uint8_t name_len = (uint8_t)strlen(adv_name);
     uint8_t adv_data[31] = {0x02, 0x01, 0x06, 0x0, 0x09};  
     uint8_t adv_data_len;
     
     adv_data[3] = name_len + 1;
     for (int i=0; i<name_len; i++) {
-        adv_data[5+i] = (uint8_t)adv_name[i];
+		adv_data[5+i] = (uint8_t)adv_name[i];
 
 		
 This is a limit imposedon the scan response data by the BLE spec, 
